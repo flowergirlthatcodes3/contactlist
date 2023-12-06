@@ -1,0 +1,83 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body {
+  background-image: url("./pics/pexels-pixabay-531844.jpg"); background-attachment: fixed;
+  background-size: cover;
+
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+h1{
+  text-align: center;
+  color:rgb(115, 5, 142) ;
+}
+h3 { text-align: center;
+  border: 3px dashed rgb(52, 10, 52);
+  justify-content: space-between;
+  display: flexbox;
+  color: darkolivegreen ;
+border-radius: 1rem;
+padding: 4px 4px 4px 4px;
+margin: 3px 3px 3px 3px; 
+background-color: rgb(246, 159, 188);
+
+}
+h3:hover{
+  color: rgb(249, 98, 120);
+  background-color: moccasin;
+}
+ul{
+  list-style:armenian;
+  color: rgb(252, 98, 206);
+
+}
+li {
+  text-align: center;
+  color: darkorchid;
+}
+.selected{
+  background-color: mistyrose ;
+  border: 2px dashed rgb(60, 2, 60);
+}
+.selected:hover{
+  background-color:plum;
+  color:rgb(7, 160, 160);
+}
